@@ -15,7 +15,7 @@
 {
     header,
     header.sticky
-    {
+    { 
         padding: 20px 50px;
         z-index: 1000;
     }
