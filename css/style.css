@@ -4,10 +4,72 @@
 {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     box-sizing: border-box;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Courier New', Courier, monospace;
 }
+
+/*  For responsive */
+@media (max-width: 991px)
+{
+    header,
+    header.sticky
+    {
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+    .menu
+    {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0,0,0,0.2);
+    }
+    .menu.active
+    {
+
+    }
+
+    header ul li a
+    {
+        color: #111;
+        font-size: 34px;
+        margin: 10px;
+    }
+    .toggle
+    {
+        width: 40px;
+        height: 40px;
+        background: url(/img/menu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    .toggle.active
+    {
+        background: url(/img/close.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer;
+    }
+    header.sticky .toggle
+    {
+        filter: invert(1);
+    }
+}
+
+
 
 section
 {
@@ -161,5 +223,157 @@ header.sticky ul li a
 img
 {
     max-width: 100%;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+}
+
+/* Projects List */
+.projectslist h2 a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.heading p
+{
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+}
+
+.prhd
+{
+    font-weight: 900;
+    color: aqua;
+    /* color: rgba(255, 255, 255, 0.938); */
+}
+
+.about{
+    background-color: #FAFAFA;
+}
+
+.projects
+{
+    background:url(/img/projects-k.jpg);
+}
+
+.projectslist p
+{
+    color: aqua;
+    font-weight: 900;
+}
+
+.contact
+{
+    background: #111;
+}
+
+.heading-wt
+{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formBox
+{
+    min-width: 60%;
+}
+
+.formBox form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.formBox form h3, .contactInfo h3
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.formBox form input, .formBox form textarea
+{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background:#222;
+    color: #fff;
+    resize: none;
+}
+
+.formBox form textarea
+{
+    min-height: 180px;
+}
+
+.formBox form input::placeholder,
+.formBox form textarea::placeholder
+{
+    color: rgb(206, 200, 203)6);
+}
+
+.formBox form input[type="submit"]
+{
+    max-width: 100px;
+    background: #2091ec;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contactInfo
+{
+    min-width: 40%;
+}
+
+.contactInfoBox
+{
+    position: relative;
+}
+
+.contactInfoBox .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contactInfoBox .box .icon
+{
+    min-width: 40px;
+    padding-top: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+}
+
+.contactInfoBox .box .text 
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contactInfoBox .box .text h3
+{
+    font-weight: 500;
+    color: rgb(8, 245, 245);
+    margin-bottom: 0;
+}
+
+.copyright
+{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
 }
