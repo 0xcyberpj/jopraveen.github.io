@@ -45,6 +45,7 @@
         font-size: 34px;
         margin: 10px;
     }
+
     /* header.sticky ul li a
     {
         color: rgb(0, 0, 0);
@@ -136,6 +137,7 @@
         padding: 100px 20px;
     }
 }
+/* End of media  */
 
 section
 {
@@ -187,6 +189,22 @@ section
     font-weight: 500;
     color: white;
 }
+/* About Me hover */
+.btn:hover
+{
+    position: relative;
+    background: rgba(13, 159, 196, 0.836);
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color:  rgb(255, 255, 255);
+}
+
 
 header
 {
@@ -244,6 +262,17 @@ header ul li a
     color: #fff;
     text-decoration: none;
 }
+/* Hover for menu items */
+header ul li a:hover
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 34px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 
 header.sticky ul li a
 {
@@ -297,6 +326,14 @@ img
 {
     text-decoration: none;
     color: white;
+    font-weight: 700;
+}
+/* hover for projects */
+.projectslist h2 a:hover
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
     font-weight: 700;
 }
 
@@ -391,6 +428,16 @@ img
     letter-spacing: 2px;
 }
 
+/* Send Me Hover */
+.formBox form input[type="submit"]:hover
+{
+    max-width: 100px;
+    background: #096beb;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 .contactInfo
 {
     min-width: 40%;
@@ -442,4 +489,120 @@ img
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
+}
+
+/* Social Media Icons */
+.copyright ul
+{
+    display: inline-flex;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.copyright ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 12px;
+    font-size: 22px;
+}
+
+/* Hover Animations For social media icons */
+.insta:hover
+{
+    text-decoration: none;
+    color: rgb(196, 35, 102);
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 12px;
+    font-size: 30px;
+}
+.twitter:hover
+{
+    text-decoration: none;
+    color: #2091ec;
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 12px;
+    font-size: 30px;
+}
+.telegram:hover
+{
+    text-decoration: none;
+    color: rgb(13, 192, 216);
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 12px;
+    font-size: 30px;
+}
+.yt:hover
+{
+    text-decoration: none;
+    color: rgb(221, 13, 13);
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 12px;
+    font-size: 30px;
+}
+.whatsapp:hover
+{
+    text-decoration: none;
+    color: rgb(13, 216, 91);
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 12px;
+    font-size: 30px;
+}
+.git:hover
+{
+    text-decoration: none;
+    color: rgb(133, 128, 130);
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 12px;
+    font-size: 30px;
+}
+.linkedin:hover
+{
+    text-decoration: none;
+    color: rgb(13, 125, 216);
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 12px;
+    font-size: 30px;
+}
+.gmail:hover
+{
+    text-decoration: none;
+    color: coral;
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 12px;
+    font-size: 30px;
+}
+
+/* doubts */
+.doubts
+{
+    /* background-color: rgb(34, 34, 34); */
+    background-color: turquoise;
+    height: 20px;
+}
+.doubts h5
+{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+/* doubts ku mela gap */
+.strip2px
+{
+    /* background-color: rgb(34, 34, 34) ;
+     */
+    background-color: turquoise;
+    height: 4px;
 }
