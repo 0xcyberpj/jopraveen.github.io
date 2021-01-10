@@ -13,6 +13,24 @@ body
     font-family: "Courier New", Courier, monospace;
 }
 
+/* For page views count */
+.pg-views
+{
+  background-color: #111111;
+  text-align: center;
+}
+
+.pg-views p
+{
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.pg-views h2
+{
+  color: #096beb;
+}
+
 
 /*  For responsive */
 @media (max-width: 991px) {
