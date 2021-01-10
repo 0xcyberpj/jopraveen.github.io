@@ -8,3 +8,5 @@ https://jopraveen.github.io
 80% works done
 I'll make it 100% soon :D
 
+Some feautures:
+- you can send messages to me
