@@ -41,9 +41,17 @@ body
 
     header ul li a
     {
-        color: #111;
         font-size: 34px;
         margin: 10px;
+    }
+
+    .menu li a
+    {
+      color: #111;
+    }
+    .menu li a:hover
+    {
+      color: #111;
     }
 
     /* header.sticky ul li a
