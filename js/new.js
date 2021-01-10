@@ -14,7 +14,7 @@
 (function () {
     'use strict'
     var typed = new Typed(".text-typed", {
-        strings: ['PROGRAMMER', 'PENTESER', 'HTB GURU', 'FRONT-END DEV'],
+        strings: ['PROGRAMMER', 'PENTESTER', 'HTB GURU', 'FRONT-END DEV'],
         typeSpeed: 80,
         loop: true,
         backDelay: 900,
