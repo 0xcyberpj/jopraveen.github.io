@@ -10,3 +10,7 @@ I'll make it 100% soon :D
 
 Some feautures:
 - you can send messages to me
+
+- Smooth scrolling
+
+- Pages view count
