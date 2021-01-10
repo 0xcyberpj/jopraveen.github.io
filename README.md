@@ -1,8 +1,18 @@
-This is my portfolio webpage under construction
+This is my portfolio webpage 
 
-I'll make it soon :D
+its under construction
 
 # visit here:
 https://jopraveen.github.io
 
 80% works done
+I'll make it 100% soon :D
+
+Some feautures:
+- you can send messages to me
+
+- Smooth scrolling
+
+- Pages view count
+
+- used typed.js
