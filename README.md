@@ -14,3 +14,5 @@ Some feautures:
 - Smooth scrolling
 
 - Pages view count
+
+- used typed.js
