@@ -204,7 +204,7 @@ section
 .btn
 {
     position: relative;
-    background: rgba(14, 202, 114, 0.836);
+    background: rgba(11, 142, 202, 0.836);
     display: inline-block;
     margin-top: 20px;
     padding: 10px 30px;
@@ -214,6 +214,8 @@ section
     letter-spacing: 2px;
     font-weight: 500;
     color: white;
+    border-radius: 25px;
+    background-image: initial;
 }
 /* About Me hover */
 .btn:hover
