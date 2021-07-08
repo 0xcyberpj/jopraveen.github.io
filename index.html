@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+	<script defer src="js/validate.js"></script>
     <title>👀Jopraveen</title>
 </head>
 <!-- oh no! Login page :(  Ok wts the creds? -->
@@ -12,16 +13,16 @@
 <body>
     <div class="box">
 		<h2>H@ck{Th3_l0g1n_p4G3}</h2>
-        <form action="">
+        <form method="POST" id="form">
 			<div class="inputBox">
-				<input type="text" name="" required="">
-				<label for="">Username</label>
+				<input id="username" type="text" name="" required="">
+				<label for="username">Username</label>
 			</div>
 			<div class="inputBox">
-				<input type="password" name="" required="">
-				<label for="">Password</label>
+				<input id="password" type="password" name="" required="">
+				<label for="password">Password</label>
 			</div>
-			<input type="submit" name="" value="Hack">
+			<input type="submit"  onclick="validate()" value="Hack">
 		</form>
 	</div>
 </body>
