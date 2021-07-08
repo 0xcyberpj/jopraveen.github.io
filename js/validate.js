@@ -19,7 +19,7 @@ function validate(){
     }
     else{
         alert("TEST")
-        window.location = "hamcker.txt"
+        window.location = "https://jopraveen.me/hamcker.txt"
     }
 
 }
