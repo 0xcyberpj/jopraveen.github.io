@@ -19,7 +19,8 @@ function validate(){
     }
     else{
         alert("TEST")
-        window.location = "https://jopraveen.me/hamcker.txt"
+        window.location = "hamcker.txt"
+        return false;
     }
 
 }
