@@ -18,7 +18,7 @@ function validate(){
 
     }
     else if(password.value.includes("whoami") | username.value.includes("whoami")){
-        window.location = "https://imgflip.com/i/44pmyg"
+        window.location = "https://i.imgflip.com/44pmyg.jpg"
         return false;
     }
     else if (username.value === "jopraveen" & password.value==="I_h4T3_p41d_Cr1ng3_c0uR53s"){
