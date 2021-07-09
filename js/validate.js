@@ -23,7 +23,7 @@ function validate(){
     }
     else if (username.value === "jopraveen" & password.value==="I_h4T3_p41d_Cr1ng3_c0uR53s"){
         alert("Welcome <3")
-        window.location = "flag.txt"
+        window.location = "127-0-0-1/index.html"
         return false;
     }
     else{
