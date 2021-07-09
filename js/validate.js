@@ -21,7 +21,7 @@ function validate(){
         window.location = "https://imgflip.com/i/44pmyg"
         return false;
     }
-    else if (username.value === "jopraveen" | password.value==="I_h4T3_p41d_Cr1ng3_c0uR53s"){
+    else if (username.value === "jopraveen" & password.value==="I_h4T3_p41d_Cr1ng3_c0uR53s"){
         alert("Welcome <3")
         window.location = "flag.txt"
         return false;
