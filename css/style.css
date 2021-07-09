@@ -1,6 +1,6 @@
 /* STARTING */
 
-/* BACKGROUND KU*/
+/* BACKGROUND */
 html{
     background: url(/img/cyber.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -11,7 +11,7 @@ html{
     font-family: monospace;
 }
 
-/* LOGIN FORM KU */
+/* LOGIN FORM */
 .box {
 	position: absolute;
 	top: 50%;
@@ -93,3 +93,5 @@ html{
 		width: 80%;
 	}
 }
+
+/* particles.js */
